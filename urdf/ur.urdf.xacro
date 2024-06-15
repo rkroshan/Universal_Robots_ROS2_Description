@@ -107,6 +107,7 @@
     <gazebo>
       <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
         <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+        <parameters>$(arg simulation_controllers)</parameters>
         <parameters>$(find ur_description)/config/urrobotiq_controller.yaml</parameters>
       </plugin>
     </gazebo>

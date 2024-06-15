@@ -703,7 +703,7 @@
 
       <!-- SMALL CUBE FOR GRIPPER PLUGIN -->
 
-      <link name="EE_robotiq_2f85">
+      <!-- <link name="EE_robotiq_2f85">
         <inertial>
           <origin xyz="0 0 0" rpy="0 0 0" />
           <mass value="0.00001" />
@@ -722,7 +722,7 @@
         <limit effort="10000" lower="0.0" upper="0.0" velocity="0.0"/>
         <axis xyz="1 0 0" />
         <origin xyz="0.128 0.0 0.0" rpy="0 0 0"/>
-      </joint>
+      </joint> -->
 
     </xacro:if>
     <!-- === ROBOTIQ 2f-85 GRIPPER === -->
